@@ -6,7 +6,11 @@ This project demonstrates the occurence of a runtime error when using GraphQL in
 
 Run `npm ci` to install project dependencies.
 
-## Error reproduction
+## Code Points of Interest
+
+The graphql dependency is imported and used inside the `app.vue` component.
+
+## Error Reproduction
 
 The error reproduction involves building and running the application in production mode on Windows and Linux. The following environments have been used to run the applications:
 
